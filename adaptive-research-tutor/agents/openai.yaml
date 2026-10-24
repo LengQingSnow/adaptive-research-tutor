@@ -1,0 +1,3 @@
+interface:
+  display_name: "自适应科研与工程导师"
+  short_description: "围绕当前科研与工程任务逐点讲解原理，支持反复追问、进度保存与恢复"

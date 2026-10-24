@@ -1,0 +1,17 @@
+# Local validation artifacts and Python runtime files
+.validation/
+__pycache__/
+*.py[cod]
+.venv/
+
+# Personal learning records and optional local profiles
+**/docs/learning/
+**/learner-profile.local.*
+**/learner-background.local.*
+
+# Local environment and OS files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
