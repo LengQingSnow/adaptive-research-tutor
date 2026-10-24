@@ -115,6 +115,11 @@ If project or main-chat access is unavailable, the tutor should say so and work 
 what the user supplies. If persistence is unavailable, progress remains in the current
 conversation unless the user carries a recovery summary forward.
 
+## License
+
+The project-authored Skill instructions and documentation are released under the
+[MIT License](LICENSE). Copyright (c) 2026 Catmachine.
+
 ## 中文说明
 
 一个可复用的 Codex Skill：围绕用户当前的科研、工程或其他复杂任务，逐点讲解实际工作背后的原理，支持反复追问和学习位置恢复。
@@ -196,3 +201,7 @@ $adaptive-research-tutor 开始教学，解释当前任务中的关键原理。
 这是纯指令 Skill，没有后台进程、持续监听或实时跨聊天同步能力。持续独立教学可以使用客户端可用的关联 Side Chat，或能够读取同一项目的独立聊天；具体能力取决于工具和权限。无法读取主任务或保存文件时，导师应说明限制。
 
 [验收场景](adaptive-research-tutor/references/evaluation-cases.md)涵盖跨领域适应、多轮追问、进度恢复、主任务变化、误触发及上下文缺失。该文件提供复测方法；实际学习记录、本机验证依赖和测试会话输出不包含在本仓库中。
+
+### 许可证
+
+本项目原创的 Skill 指令与文档采用 [MIT 许可证](LICENSE)。Copyright (c) 2026 Catmachine。
